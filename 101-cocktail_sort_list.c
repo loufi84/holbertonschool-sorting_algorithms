@@ -61,7 +61,6 @@ listint_t *fwd_p(listint_t **list, listint_t *start, listint_t *end, int *swap)
  * bck_p - A function that performs a backward pass of the cocktail sort
  *
  * @list: Double pointer to the head of the list
- * @start: Starting node for the pass
  * @end: Ending node for the pass
  * @swap: Pointer to the swap flag
  *
